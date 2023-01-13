@@ -164,7 +164,6 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource {
                 break
             }
         }
-        print("🇺🇿 favorite-",favoriteBooks[sender.tag]," books-", books[sender.tag].id)
     
         baseView.tableView.reloadData()
     }
